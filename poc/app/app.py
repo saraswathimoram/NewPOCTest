@@ -8,10 +8,8 @@ def add(arg1, arg2):
     """ function will add two values"""
     return arg1+arg2
 
-k = 0
-
 def subtract(arg1, arg2):
-    """ function will subtract two params"""
+ 
     return arg1-arg2
 
 def multiply(arg1, arg2):
