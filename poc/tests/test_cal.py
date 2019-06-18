@@ -12,10 +12,7 @@ class Testcalc(unittest.TestCase):
         self.assertEqual(ap.add(self.x, self.y), 15)
         self.assertEqual(ap.add(2,3), 5)
         
-    def test_sub(self):
-        self.assertEqual(ap.subtract(self.x, self.y), 5)
-        self.assertEqual(ap.subtract(2,3), -1)
-
+    
     def test_multiply(self):
         self.assertEqual(ap.multiply(self.x, self.y), 50)
         self.assertEqual(ap.multiply(2,3), 6)
